@@ -1,0 +1,24 @@
+{
+  "Applications": {
+    "$1": {
+      "Application": {
+        "Description": "A GitHub application host for {{SOURCE_LOOKUP}}.",
+        "Name": "GitHub Application: {{SOURCE_LOOKUP}}"
+      },
+      "LookupConfig": {
+        "PathRegex": "{{APP_PATH}}.*"
+      },
+      "LowCodeUnit": {
+        "SourceControlLookup": "{{SOURCE_LOOKUP}}",
+        "Build": "latest",
+        "Path": "lcu-github-artifacts-release.yml",
+        "Type": "GitHub"
+      },
+      "Processor": {
+        "BaseHref": "{{APP_PATH}}/",
+        "DefaultFile": "index.html",
+        "Type": "DFS"
+      }
+    }
+  }
+}

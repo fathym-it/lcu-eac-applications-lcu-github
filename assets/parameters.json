@@ -1,0 +1,9 @@
+{
+  "SOURCE_LOOKUP": {
+    "type": "eac:env:sources|select"
+  },
+  "APP_PATH": {
+    "type": "input",
+    "message": "Enter the path for the application (should start with '/'):"
+  }
+}

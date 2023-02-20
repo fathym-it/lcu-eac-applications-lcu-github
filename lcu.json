@@ -1,0 +1,8 @@
+{
+  "Package": {
+    "Name": "Create GitHub application",
+    "Description": "An LCU for installing a GitHub application.",
+    "Image": "https://www.fathym.com/assets/images/logo.png",
+    "PreviewImage": "https://www.fathym.com/assets/images/logo.png"
+  }
+}
