@@ -11,7 +11,7 @@
       "LowCodeUnit": {
         "SourceControlLookup": "{{SOURCE_LOOKUP}}",
         "Build": "latest",
-        "Path": "lcu-github-artifacts-release.yml",
+        "Path": "lcu-release.yml",
         "Type": "GitHub"
       },
       "Processor": {
